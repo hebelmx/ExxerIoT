@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<TargetFramework>net8.0</TargetFramework>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<ProjectReference Include="..\ExxerIoT.Application\ExxerIoT.Application.csproj" />
+		<ProjectReference Include="..\ExxerIoT.Domain\ExxerIoT.Domain.csproj" />
+		<ProjectReference Include="..\ExxerIoT.Infra.CrossCutting.Identity\ExxerIoT.Infra.CrossCutting.Identity.csproj" />
+		<ProjectReference Include="..\ExxerIoT.Infra.Data\ExxerIoT.Infra.Data.csproj" />
+	</ItemGroup>
+
+</Project>

@@ -1,0 +1,21 @@
+{
+  "$schema": "http://json.schemastore.org/template",
+  "author": "Abel Briones",
+  "classifications": [ "Web", "IoT" ],
+  "identity": "ExxerIoT.Template",
+  "name": "ExxerIoT Template",
+  "shortName": "exxeriot",
+  "tags": {
+    "language": "C#",
+    "type": "project"
+  },
+  "sourceName": "ExxerIoT",
+  "preferNameDirectory": true,
+  "symbols": {
+    "ProjectName": {
+      "type": "parameter",
+      "defaultValue": "ExxerIoT",
+      "replaces": "ExxerIoT"
+    }
+  }
+}
